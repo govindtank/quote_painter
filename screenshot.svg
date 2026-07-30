@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844" width="390" height="844">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f0f1e"/>
+      <stop offset="100%" stop-color="#1a1a2e"/>
+    </linearGradient>
+    <linearGradient id="cardBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a3e"/>
+      <stop offset="100%" stop-color="#0d0d2b"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <filter id="dropShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+    <filter id="cardShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="24" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+    <filter id="quoteShadow" x="-20%" y="-20%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Phone frame -->
+  <rect x="0" y="0" width="390" height="844" rx="44" ry="44" fill="#1c1c1e"/>
+  <rect x="3" y="3" width="384" height="838" rx="41" ry="41" fill="url(#bgGrad)"/>
+
+  <!-- Notch / Dynamic Island -->
+  <rect x="145" y="9" width="100" height="22" rx="11" ry="11" fill="#1c1c1e"/>
+
+  <!-- Status bar -->
+  <text x="24" y="24" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="13" font-weight="600" fill="#ffffff">9:41</text>
+  <!-- Status icons -->
+  <g transform="translate(330, 16)">
+    <!-- Signal bars -->
+    <rect x="0" y="4" width="3" height="6" rx="0.5" fill="#fff" opacity="0.6"/>
+    <rect x="5" y="2.5" width="3" height="7.5" rx="0.5" fill="#fff" opacity="0.7"/>
+    <rect x="10" y="1" width="3" height="9" rx="0.5" fill="#fff" opacity="0.8"/>
+    <rect x="15" y="0" width="3" height="10" rx="0.5" fill="#fff"/>
+    <!-- Battery -->
+    <rect x="24" y="1.5" width="18" height="9" rx="2" fill="none" stroke="#fff" stroke-width="1"/>
+    <rect x="25" y="3" width="14" height="6" rx="1.5" fill="#fff"/>
+    <rect x="42" y="4" width="2" height="4" rx="0.5" fill="#fff" opacity="0.4"/>
+  </g>
+
+  <!-- Header -->
+  <text x="195" y="66" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="0.5">quote_painter</text>
+  <text x="195" y="86" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="12" font-weight="400" fill="#60a5fa" text-anchor="middle" opacity="0.8">Styled Text on Canvas</text>
+
+  <!-- Header separator -->
+  <line x1="145" y1="96" x2="245" y2="96" stroke="url(#accentGrad)" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- Quote card -->
+  <g filter="url(#cardShadow)">
+    <rect x="24" y="120" width="342" height="424" rx="20" ry="20" fill="url(#cardBg)"/>
+    <rect x="24" y="120" width="342" height="424" rx="20" ry="20" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.08"/>
+  </g>
+
+  <!-- Decorative quote mark -->
+  <text x="52" y="196" font-family="Georgia, 'Times New Roman', serif" font-size="96" font-weight="700" fill="#ffffff" opacity="0.06">"</text>
+
+  <!-- Quote text lines -->
+  <g filter="url(#quoteShadow)">
+    <!-- Line 1: "The best code" -->
+    <text x="195" y="280" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="30" font-weight="700" fill="url(#textGrad)" text-anchor="middle" stroke="#ffffff" stroke-width="1" stroke-opacity="0.25">The best code</text>
+
+    <!-- Line 2: "is the code" -->
+    <text x="195" y="324" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="30" font-weight="700" fill="url(#textGrad)" text-anchor="middle" stroke="#ffffff" stroke-width="1" stroke-opacity="0.25">is the code</text>
+
+    <!-- Line 3: "never written" -->
+    <text x="195" y="368" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="30" font-weight="700" fill="url(#textGrad)" text-anchor="middle" stroke="#ffffff" stroke-width="1" stroke-opacity="0.25">never written</text>
+  </g>
+
+  <!-- Attribution -->
+  <text x="195" y="424" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="15" font-weight="400" fill="#94a3b8" text-anchor="middle" opacity="0.8">— A Lazy Developer</text>
+
+  <!-- Gradient indicator strip at bottom of card -->
+  <rect x="24" y="514" width="342" height="30" rx="0" ry="0" fill="url(#textGrad)" opacity="0.15"/>
+  <rect x="24" y="544" width="342" height="0" rx="0" ry="0"/>
+
+  <!-- Toolbar: gradient options + stroke toggle -->
+  <text x="195" y="572" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="11" font-weight="500" fill="#ffffff" text-anchor="middle" opacity="0.4">GRADIENT  •  STROKE  •  FONT  •  SHADOW</text>
+
+  <!-- Gradient swatches row -->
+  <g transform="translate(80, 590)">
+    <!-- Swatch 1: blue-purple gradient -->
+    <rect x="0" y="0" width="32" height="32" rx="8" fill="url(#textGrad)"/>
+    <rect x="0" y="0" width="32" height="32" rx="8" fill="none" stroke="#60a5fa" stroke-width="2"/>
+
+    <!-- Swatch 2: amber-orange -->
+    <rect x="44" y="0" width="32" height="32" rx="8" fill="url(#amberOrange)"/>
+    <defs>
+      <linearGradient id="amberOrange" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#fbbf24"/>
+        <stop offset="100%" stop-color="#f97316"/>
+      </linearGradient>
+    </defs>
+
+    <!-- Swatch 3: pink-rose -->
+    <rect x="88" y="0" width="32" height="32" rx="8" fill="url(#pinkRose)"/>
+    <defs>
+      <linearGradient id="pinkRose" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#f472b6"/>
+        <stop offset="100%" stop-color="#e11d48"/>
+      </linearGradient>
+    </defs>
+
+    <!-- Swatch 4: cyan-teal -->
+    <rect x="132" y="0" width="32" height="32" rx="8" fill="url(#cyanTeal)"/>
+    <defs>
+      <linearGradient id="cyanTeal" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#22d3ee"/>
+        <stop offset="100%" stop-color="#14b8a6"/>
+      </linearGradient>
+    </defs>
+
+    <!-- Swatch 5: emerald-lime -->
+    <rect x="176" y="0" width="32" height="32" rx="8" fill="url(#emeraldLime)"/>
+    <defs>
+      <linearGradient id="emeraldLime" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#34d399"/>
+        <stop offset="100%" stop-color="#84cc16"/>
+      </linearGradient>
+    </defs>
+  </g>
+
+  <!-- Stroke toggle row -->
+  <g transform="translate(80, 638)">
+    <text x="0" y="16" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="13" font-weight="400" fill="#ffffff" opacity="0.6">Stroke</text>
+    <!-- Toggle switch -->
+    <rect x="180" y="2" width="36" height="20" rx="10" fill="#60a5fa"/>
+    <circle cx="202" cy="12" r="7" fill="#ffffff"/>
+    <text x="226" y="16" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="13" font-weight="400" fill="#ffffff" opacity="0.6">Shadow</text>
+    <rect x="260" y="2" width="36" height="20" rx="10" fill="#334155"/>
+    <circle cx="278" cy="12" r="7" fill="#ffffff" opacity="0.4"/>
+  </g>
+
+  <!-- Export to PNG badge -->
+  <g filter="url(#dropShadow)">
+    <rect x="95" y="700" width="200" height="48" rx="24" ry="24" fill="url(#accentGrad)"/>
+    <text x="195" y="730" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="16" font-weight="600" fill="#ffffff" text-anchor="middle">🎨  Export to PNG</text>
+  </g>
+
+  <!-- Home indicator -->
+  <rect x="140" y="826" width="110" height="4" rx="2" ry="2" fill="#ffffff" opacity="0.3"/>
+</svg>
