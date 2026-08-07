@@ -37,7 +37,8 @@ void main() {
     const style = QuoteStyle(textAlign: TextAlign.right);
     expect(style.resolveAlign(), TextAlign.right);
     expect(
-        style.resolveAlign(lineOverride: const LineStyle(textAlign: TextAlign.left)),
+        style.resolveAlign(
+            lineOverride: const LineStyle(textAlign: TextAlign.left)),
         TextAlign.left);
   });
 

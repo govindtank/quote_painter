@@ -108,7 +108,7 @@ class QuotePainter extends CustomPainter {
   void _paintShadow(Canvas canvas, TextLine line, TextPainter tp, Offset pos) {
     final ls = line.style;
     final sc = ls?.shadowColor ?? quoteStyle.shadowColor;
-    if (sc.opacity <= 0) return;
+    if (sc.a <= 0) return;
     final so = ls?.shadowOffset ?? quoteStyle.shadowOffset;
     final sb = ls?.shadowBlurRadius ?? quoteStyle.shadowBlurRadius;
     final maxW = width;
@@ -148,7 +148,7 @@ class QuotePainter extends CustomPainter {
     final ls = line.style;
     final strokeColor = ls?.strokeColor ?? quoteStyle.strokeColor;
     final strokeWidth = ls?.strokeWidth ?? quoteStyle.strokeWidth;
-    if (strokeColor.opacity <= 0 || strokeWidth <= 0) return;
+    if (strokeColor.a <= 0 || strokeWidth <= 0) return;
 
     final span = TextSpan(
       text: line.text,
