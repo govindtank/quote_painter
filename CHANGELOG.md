@@ -1,3 +1,7 @@
+## 0.2.1
+
+* Updated preview screenshot and UI alignment in documentation.
+
 ## 0.2.0
 
 * Added `QuotePainter.fromText(...)` for automatic word-wrapping and line calculations to fit bounding constraints.
