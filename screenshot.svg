@@ -87,8 +87,8 @@
   <!-- Toolbar: gradient options + stroke toggle -->
   <text x="195" y="572" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="11" font-weight="500" fill="#ffffff" text-anchor="middle" opacity="0.4">GRADIENT  •  STROKE  •  FONT  •  SHADOW</text>
 
-  <!-- Gradient swatches row -->
-  <g transform="translate(80, 590)">
+  <!-- Gradient swatches row (centered across width=390, total swatches span = 208px, offset=91) -->
+  <g transform="translate(91, 590)">
     <!-- Swatch 1: blue-purple gradient -->
     <rect x="0" y="0" width="32" height="32" rx="8" fill="url(#textGrad)"/>
     <rect x="0" y="0" width="32" height="32" rx="8" fill="none" stroke="#60a5fa" stroke-width="2"/>
@@ -130,15 +130,21 @@
     </defs>
   </g>
 
-  <!-- Stroke toggle row -->
-  <g transform="translate(80, 638)">
-    <text x="0" y="16" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="13" font-weight="400" fill="#ffffff" opacity="0.6">Stroke</text>
-    <!-- Toggle switch -->
-    <rect x="180" y="2" width="36" height="20" rx="10" fill="#60a5fa"/>
-    <circle cx="202" cy="12" r="7" fill="#ffffff"/>
-    <text x="226" y="16" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="13" font-weight="400" fill="#ffffff" opacity="0.6">Shadow</text>
-    <rect x="260" y="2" width="36" height="20" rx="10" fill="#334155"/>
-    <circle cx="278" cy="12" r="7" fill="#ffffff" opacity="0.4"/>
+  <!-- Controls row: Stroke Toggle & Shadow Toggle precisely structured & aligned -->
+  <g transform="translate(65, 642)">
+    <!-- Stroke control unit (label + switch) -->
+    <g transform="translate(0, 0)">
+      <text x="0" y="16" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="14" font-weight="500" fill="#ffffff" opacity="0.8">Stroke</text>
+      <rect x="56" y="0" width="44" height="24" rx="12" fill="#60a5fa"/>
+      <circle cx="88" cy="12" r="9" fill="#ffffff"/>
+    </g>
+
+    <!-- Shadow control unit (label + switch) -->
+    <g transform="translate(145, 0)">
+      <text x="0" y="16" font-family="-apple-system, 'Helvetica Neue', sans-serif" font-size="14" font-weight="500" fill="#ffffff" opacity="0.8">Shadow</text>
+      <rect x="62" y="0" width="44" height="24" rx="12" fill="#334155"/>
+      <circle cx="73" cy="12" r="9" fill="#94a3b8"/>
+    </g>
   </g>
 
   <!-- Export to PNG badge -->
