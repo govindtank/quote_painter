@@ -14,7 +14,7 @@ Now available on **[pub.dev/packages/quote_painter](https://pub.dev/packages/quo
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/govindtank/quote_painter/main/screenshot.svg" width="450" alt="quote_painter screenshot" />
+  <img src="https://raw.githubusercontent.com/govindtank/quote_painter/v0.2.1/screenshot.svg" width="450" alt="quote_painter screenshot" />
 </p>
 
 ---

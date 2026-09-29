@@ -1,6 +1,6 @@
 name: quote_painter
 description: Flutter package for rendering styled text on image/video canvas with gradient fill, stroke, shadow, decorative quotation marks, line badges, and themes.
-version: 0.2.1
+version: 0.2.2
 homepage: https://github.com/govindtank/quote_painter
 repository: https://github.com/govindtank/quote_painter
 topics:

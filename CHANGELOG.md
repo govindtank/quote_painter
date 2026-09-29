@@ -1,3 +1,7 @@
+## 0.2.2
+
+* Pinned documentation image link to version tag to bypass CDN cache.
+
 ## 0.2.1
 
 * Updated preview screenshot and UI alignment in documentation.
