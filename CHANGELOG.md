@@ -28,3 +28,8 @@
 ## 0.2.3
 
 * Fix example analysis issue on pub.dev by updating .pubignore to retain native project folders.
+
+## 0.2.4
+
+* Added `WatermarkPosition` for canvas export configuration.
+* Automated pub.dev OIDC deployment.

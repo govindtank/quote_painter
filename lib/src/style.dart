@@ -392,3 +392,15 @@ class QuoteThemes {
         ),
       );
 }
+
+/// Watermark placement options for canvas exports.
+enum WatermarkPosition {
+  /// Bottom right corner of image canvas.
+  bottomRight,
+
+  /// Bottom left corner of image canvas.
+  bottomLeft,
+
+  /// Top right corner.
+  topRight,
+}
