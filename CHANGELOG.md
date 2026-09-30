@@ -1,3 +1,12 @@
+## 0.2.4
+
+* Added `WatermarkPosition` for canvas export configuration.
+* Verified CI/CD workflows.
+
+## 0.2.3
+
+* Fixed example analysis issue on pub.dev by updating `.pubignore` to retain native project folders.
+
 ## 0.2.2
 
 * Pinned documentation image link to version tag to bypass CDN cache.
@@ -24,12 +33,3 @@
 * Gradient fill, stroke, shadow, and per-line alignment.
 * Headless `QuotePainter` for exporting quotes as PNG images.
 * `QuoteStyle` with full text styling control (font size, weight, colors, spacing).
-
-## 0.2.3
-
-* Fix example analysis issue on pub.dev by updating .pubignore to retain native project folders.
-
-## 0.2.4
-
-* Added `WatermarkPosition` for canvas export configuration.
-* Automated pub.dev OIDC deployment.
