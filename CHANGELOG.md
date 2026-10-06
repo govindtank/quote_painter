@@ -1,3 +1,7 @@
+## 0.2.5
+
+* docs: update centered vector badges and documentation.
+
 ## 0.2.4
 
 * Added `WatermarkPosition` for canvas export configuration.
