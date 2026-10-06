@@ -1,15 +1,12 @@
 # quote_painter
 
-[![Pub Version](https://img.shields.io/pub/v/quote_painter.svg?style=flat-square&color=blue)](https://pub.dev/packages/quote_painter)
-[![Pub Points](https://img.shields.io/pub/points/quote_painter?style=flat-square&color=2E8B57&label=pub%20points)](https://pub.dev/packages/quote_painter/score)
-[![Pub Likes](https://img.shields.io/pub/likes/quote_painter?style=flat-square)](https://pub.dev/packages/quote_painter)
-[![CI](https://github.com/govindtank/quote_painter/actions/workflows/ci.yml/badge.svg)](https://github.com/govindtank/quote_painter/actions)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
-[![Platform](https://img.shields.io/badge/platform-Android%20%7C%20iOS%20%7C%20Web%20%7C%20macOS%20%7C%20Windows%20%7C%20Linux-blue?style=flat-square)](https://pub.dev/packages/quote_painter)
-
-A high-performance Flutter package for rendering beautifully styled text, inspirational quotes, titles, and captions over image/video canvas surfaces with gradients, outlines, multi-layer shadows, background highlight badges, decorative quote glyphs, ready-to-use themes, per-line overrides, and PNG export.
-
-Now available on **[pub.dev/packages/quote_painter](https://pub.dev/packages/quote_painter)**.
+<p align="center">
+  <a href="https://pub.dev/packages/quote_painter"><img src="https://img.shields.io/pub/v/quote_painter.svg?style=flat-square&color=blue" alt="Pub Version"></a>
+  <a href="https://pub.dev/packages/quote_painter/score"><img src="https://img.shields.io/pub/points/quote_painter?style=flat-square&color=2E8B57&label=pub%20points" alt="Pub Points"></a>
+  <a href="https://pub.dev/packages/quote_painter"><img src="https://img.shields.io/pub/likes/quote_painter?style=flat-square" alt="Pub Likes"></a>
+  <a href="https://github.com/govindtank/quote_painter/actions"><img src="https://github.com/govindtank/quote_painter/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache%202.0-blue.svg?style=flat-square" alt="License"></a>
+</p>
 
 ---
 
